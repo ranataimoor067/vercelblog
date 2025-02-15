@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [react()],
     build: {
-      outDir: 'dist', // Output directory
+      outDir: 'build', // Output directory
       emptyOutDir: true, // Clear the output directory before building
     },
   };
